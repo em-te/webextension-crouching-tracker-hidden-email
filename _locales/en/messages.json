@@ -1,0 +1,9 @@
+{
+  "extensionName": {
+    "message": "Crouching Tracker, Hidden Email"
+  },
+
+ "extensionDescription": {
+    "message": "Changes the cursor when a hyperlink (or button) links to a URL which contains an email address in it."
+  }
+}

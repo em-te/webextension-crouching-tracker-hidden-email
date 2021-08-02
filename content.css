@@ -1,0 +1,12 @@
+:is(
+  form[action^="http"][action*="@"][action*="."], 
+  form[action^="http"][action*="%40"][action*="."], 
+  form[action^="//"][action*="@"][action*="."], 
+  form[action^="//"][action*="%40"][action*="."]
+) :is(button, input[type=button], input[type=image], input[type=submit]),
+:any-link[href^="http"][href*="@"][href*="."],
+:any-link[href^="http"][href*="%40"][href*="."],
+:any-link[href^="//"][href*="@"][href*="."],
+:any-link[href^="//"][href*="%40"][href*="."] {
+  cursor: url("data:image/svg+xml,%3csvg%20width='32'%20height='32'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%3e%3crect%20height='15'%20width='22'%20y='16.5'%20x='9.5'%20stroke='%23000'%20fill='%23ddd'/%3e%3cpath%20stroke='%23000'%20d='M9.5,17.5l0,1l11,10l11,-10l0,-1'%20fill='%23fff'/%3e%3cpath%20d='M0.5,0.5L3,14L12,8%20z'%20stroke='%23000'%20fill='%23fff'/%3e%20%20%20%20%3cpath%20stroke='%23000'%20d='m20.5,18c-3,0%20-6,2%20-6,2s3,2%206,2c3,0%206,-2%206,-2s-3,-2%20-6,-2z'%20fill='%23fff'/%3e%20%20%20%20%3cellipse%20ry='1'%20rx='1'%20cy='20'%20cx='20.5'%20stroke='%23000'%20fill='%23fff'/%3e%3c/g%3e%3c/svg%3e"),crosshair!important
+}
