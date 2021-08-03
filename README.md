@@ -12,7 +12,7 @@ This extension will change the cursor when you mouse over links containing the "
 This tactic has legitimate uses such as for email verification when signing up for new services, but it is also used by spammers or phishing emails that invite you to click on a link which then tells the server that your email address is active and even prefills your email in the webpage so that they look trustworthy.
 
 ## Details
-This extension only works on absolute URLs because most trackers will redirect to another domain that is not within the control of the current website. This means relative URLs, FTP links and mailto links are not affected.
+This extension only works on absolute URLs because most trackers need to redirect to another domain that is not within the control of the current website. This means relative URLs, FTP links and mailto links are safe and are excluded.
 
 - Relative URL: [/non-existent?q=user@example.com](/non-existent?q=user@example.com)
 - FTP link: [ftp://www.example.org/?q=user@example.com](ftp://www.example.org/?q=user@example.com)
