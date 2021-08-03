@@ -17,4 +17,12 @@ This extension only works on absolute URLs because most trackers will redirect t
 - Email links: [mailto:user@example.com](mailto:user@example.com)
 
 ## Limitations
-For maximum privacy, this extension achieves the task using pure CSS. As a result, this extension will catch all URLs with the "@" symbol regardless of whether it conforms to a valid email syntax. For example "1@1" will be treated as an email address. The author accepts this as an acceptable trade-off in exchange for privacy.
+For maximum privacy, this extension achieves the task using pure CSS.
+
+As a result, this extension will catch all URLs with the "@" symbol regardless of whether it conforms to a valid email syntax. For example "1@1" will be treated as an email address.
+
+URLs which use the "@" symbol for stylistic purposes will also be treated like an email.
+
+e.g. https://twitter.com/@Twitter/status/1390725076996268038
+
+The author accepts this as an acceptable trade-off in exchange for guaranteed privacy.
