@@ -7,6 +7,8 @@ e.g. http://www.example.org/free_stuff?invite=user@example.com
 
 This extension will change the cursor when you mouse over links containing the "@" symbol to give you an indication that you may be tracked and to proceed with caution.
 
+![appicon](https://raw.githubusercontent.com/em-te/webextension-crouching-tracker-hidden-email/main/cursor.svg)
+
 This tactic has legitimate uses such as for email verification when signing up for new services, but it is also used by spammers or phishing emails that invite you to click on a link which then tells the server that your email address is active and even prefills your email in the webpage so that they look trustworthy.
 
 ## Details
